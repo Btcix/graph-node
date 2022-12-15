@@ -19,7 +19,7 @@ services:
       postgres_pass: let-me-in
       postgres_db: graph-node
       ipfs: 'ipfs:5001'
-      ethereum: 'btcix:https://seed.btcix.org/rpc'
+      ethereum: 'btcix:https://archive.btcix.org/rpc'
       GRAPH_LOG: info
   ipfs:
     image: ipfs/go-ipfs:v0.10.0
